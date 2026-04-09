@@ -3,9 +3,9 @@ def buscarMenor(arr):
     menor_indice = 0
 
     for i in range(1, len(arr)):
-        if arr[1] < menor:
+        if arr[i] < menor:
             menor = arr[i]
-            menor_indice = 1
+            menor_indice = i
 
     return menor_indice
 
